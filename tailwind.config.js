@@ -8,28 +8,32 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Inter', 'sans-serif'],
-        display: ['Space Grotesk', 'sans-serif'],
-        mono: ['JetBrains Mono', 'monospace'],
+        sans: ['Trebuchet MS', 'sans-serif'],
+        display: ['Trebuchet MS', 'sans-serif'],
+        mono: ['Consolas', 'Liberation Mono', 'monospace'],
       },
       colors: {
-        obsidian: '#07090E',
-        carbon: '#0D111A',
-        slateCard: '#131926',
+        ink: '#123563',
+        muted: '#506583',
+        line: '#D9E3EF',
+        mist: '#EDF3FB',
+        obsidian: '#F5F8FD',
+        carbon: '#FFFFFF',
+        slateCard: '#FFFFFF',
         cyber: {
-          400: '#38BDF8',
-          500: '#0EA5E9',
-          600: '#0284C7',
+          400: '#2059AE',
+          500: '#174CA0',
+          600: '#123D80',
         },
         volt: {
-          400: '#34D399',
-          500: '#10B981',
-          600: '#059669',
+          400: '#806000',
+          500: '#F5CF38',
+          600: '#D9B321',
         }
       },
       backgroundImage: {
-        'grid-pattern': "radial-gradient(rgba(255, 255, 255, 0.07) 1px, transparent 1px)",
-        'hero-glow': "radial-gradient(circle at 20% 30%, rgba(56, 189, 248, 0.14), transparent 45%), radial-gradient(circle at 80% 60%, rgba(16, 185, 129, 0.14), transparent 45%)"
+        'grid-pattern': "radial-gradient(rgba(23, 76, 160, 0.045) 1px, transparent 1px)",
+        'hero-glow': "none"
       }
     },
   },
