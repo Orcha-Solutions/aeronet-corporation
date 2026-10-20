@@ -416,7 +416,7 @@ export default function App() {
       <div className="fixed inset-0 bg-hero-glow pointer-events-none z-0" />
 
       {/* Top Announcement Telemetry Bar */}
-      <div className="relative z-40 bg-carbon/90 border-b border-white/5 text-xs font-mono text-slate-400 py-2 px-4">
+      {/* <div className="relative z-40 bg-carbon/90 border-b border-white/5 text-xs font-mono text-slate-400 py-2 px-4">
         <div className="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-2">
           <div className="flex items-center space-x-3">
             <span className="inline-flex items-center gap-1.5 text-volt-400">
@@ -438,7 +438,7 @@ export default function App() {
             </button>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* Main Sticky Navigation Bar */}
       <header className="sticky top-0 z-40 glass-nav">
